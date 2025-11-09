@@ -7,11 +7,11 @@ Uses **MySQL** as the main movie database and **MongoDB** for logging and tracki
 
 ## 🚀 Features
 
-- 🔍 Search movies by **keyword**
-- 🎭 Search by **genre** and **year range**
-- 📊 View **popular** and **recent** search queries
-- 💾 Automatically log all searches in **MongoDB**
-- 🧾 Nicely formatted **console output**
+- Search movies by **keyword**
+- Search by **genre** and **year range**
+- View **popular** and **recent** search queries
+- Automatically log all searches in **MongoDB**
+- Nicely formatted **console output**
 
 ---
 
