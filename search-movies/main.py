@@ -109,9 +109,10 @@ def last_queries():
     while True:
         try:
             count = int(input_prompt("Type number of last queries (max = 10): "))
-            if count > 10 or count <= 0:
-                raise ValueError
-            break
+            if 0 < count < 10:
+                break
+            else:
+                print("Please enter valid number from 1 to 10")
         except ValueError:
             print("Please enter valid number from 1 to 10")
     print_last_queries(get_last_queries(count))
@@ -178,7 +179,7 @@ try:
     main_menu()
 except KeyboardInterrupt:
     print()
-    print("bye-bye!")
+    print("Bye-Bye!")
 finally:
     close_connection()
 
